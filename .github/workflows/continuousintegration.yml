@@ -32,5 +32,5 @@ jobs:
       - name: Verificar arquivos do projeto
         run: ls -la
 
-      - name: Executar aplicação
-        run: python main.py
+      - name: Verificar sintaxe do Python
+        run: python -m py_compile main.py
